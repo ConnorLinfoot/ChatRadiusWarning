@@ -1,0 +1,10 @@
+authors: [Connor Linfoot, eccentric_nz]
+description: Send players a warning if there are no other players within the server chat radius
+main: com.connorlinfoot.chatradiuswarning.ChatRadiusWarning
+name: ChatRadiusWarning
+version: ${project.version}
+softdepend: [Essentials, Citizens]
+permissions:
+  crw.bypass:
+    default: op
+    description: Allow players to bypass the warning message
